@@ -7,7 +7,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
-  };
+  }; 
 
   return (
       <div className=' p-4 flex justify-between items-center h-24 max-w-[1200px] mx-auto px-auto text-white'>
