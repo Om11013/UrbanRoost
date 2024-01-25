@@ -18,6 +18,9 @@ const Navbar = () => {
           <li className='p-4  hover:bg-slate-700 rounded-md '><Link to="/contactus">Contact Us</Link></li>
           <li className='p-4  hover:bg-slate-700 rounded-md '><Link to="/signup">Sign Up</Link></li>
           <li className='p-4 hover:bg-slate-700 rounded-md ' ><Link to="/signin">Sign In</Link></li>
+          <li className='p-4 hover:bg-slate-700 rounded-md ' ><Link to="/Pg_owner_dashboard">Pg_owner_dashboard</Link></li>
+
+          
         </ul>
         <div onClick={handleNav} className='block md:hidden'>
           {nav ? <RxCross1 size={20} /> : <FiMenu size={20} />}
